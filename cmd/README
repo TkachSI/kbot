@@ -1,2 +1,12 @@
+go get
+read -s TELE_TOKEN - add bot token
+export TELE_TOKEN - import varriable
+go build -ldflags "-X="github.com/TkachSI/kbot/cmd.appVersion=v1.0.9
+./kbot start
+
 BOT_NAME = @messagef367_bot
 
+Usage Examples
+/start hello - write kbot and current version program
+/start who are you - write is bot
+/start what time is it - current time stamp
